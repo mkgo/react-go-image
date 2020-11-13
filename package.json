@@ -1,0 +1,49 @@
+{
+  "name": "react-go-image",
+  "version": "1.2.12",
+  "description": "An image component for gracefully dealing with images errors by providing a placeholder and retries on failure",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkgo/react-go-image.git"
+  },
+  "author": "Mark Goneau <mark.goneau@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mkgo/react-go-image/issues"
+  },
+  "homepage": "https://github.com/mkgo/react-go-image#readme",
+  "dependencies": {
+    "lodash.throttle": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.1.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "peerDependencies": {
+    "react": ">=15.0.0",
+    "react-dom": ">=15.0.0"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-image",
+    "react-placeholder"
+  ]
+}
